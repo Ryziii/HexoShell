@@ -10,7 +10,7 @@ public class Exec{
         String[] cmdA = {"zsh","-c",cmd};
         try {
             Process process = Runtime.getRuntime().exec(cmdA);
-            if(!cmd.equals("cd ~/hexo\nhexo s")) {
+            if(!cmd.equals(Watch.hexos)) {
                 LineNumberReader br = new LineNumberReader(new InputStreamReader(process.getInputStream()));
                 StringBuffer sb = new StringBuffer();
                 String line;
