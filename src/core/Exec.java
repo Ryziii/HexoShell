@@ -22,8 +22,11 @@ public class Exec{
                     process.destroy();
                 return sb.toString();
             }
+//            return "成功";
+
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("错误");
         }
         return null;
     }
