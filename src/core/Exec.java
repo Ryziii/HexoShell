@@ -26,7 +26,7 @@ public class Exec{
 
         } catch (IOException e) {
             e.printStackTrace();
-            System.out.println("错误");
+            System.out.println("错误1");
         }
         return null;
     }
